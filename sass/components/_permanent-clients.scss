@@ -1,0 +1,26 @@
+
+
+.permanent-clients__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+
+    color: rgba(175, 177, 184, 1);
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+
+    transition: color var(--animation-function), border-color var(--animation-function);
+
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+        border-color: var(--accent-color);
+    }
+}
+
+.permanent-clients__icon {
+    fill: currentColor;
+}
+

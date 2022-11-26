@@ -1,0 +1,32 @@
+// UTILS STYLES
+@import './utils/variables';
+@import './utils/visually-hidden';
+
+// BASE STYLES
+@import './base/base';
+@import './base/reset';
+@import './base/card-set';
+@import './base/social-links';
+
+// COMPONENTS
+@import './components/sections';
+@import './components/container';
+@import './components/typographi';
+@import './components/button';
+// header
+@import './components/logo.scss';
+@import './components/header';
+@import './components/nav';
+@import './components/contacts';
+// hero
+@import './components/hero.scss';
+// features
+@import './components/features.scss';
+// team
+@import './components/team';
+// permanent-clients
+@import './components/permanent-clients.scss';
+// footer
+@import './components/footer';
+@import './components/footer-form'
+

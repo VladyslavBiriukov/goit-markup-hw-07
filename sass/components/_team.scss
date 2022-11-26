@@ -1,0 +1,28 @@
+.team {
+    background-color: var(--button-grey-color);
+}
+
+.team__description {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.team__title {
+    margin-top: 0;
+    margin-bottom: 10px;
+
+    color: var(--title-text-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+}
+
+.team__text {
+    margin-bottom: 16px;
+
+    font-size: 16px;
+    line-height: 1.18;
+}
+
