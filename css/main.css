@@ -272,7 +272,7 @@ ul {
 .nav__link--current::after {
   content: "";
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
   left: 0;
   display: block;
   width: 100%;
@@ -702,7 +702,7 @@ ul {
   background-color: rgba(33, 150, 243, 0.9);
 }
 
-.overlflow__text {
+.overflow__text {
   padding: 63px 24px;
   font-size: 18px;
   line-height: 1.56;
