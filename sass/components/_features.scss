@@ -1,4 +1,5 @@
 .feature {
+    @extend %section;
     padding-bottom: 0;
 }
 .feature__list {

@@ -1,6 +1,20 @@
+.permanent-clients {
+@extend %section;
+}
+.permanent-clients__list {
+    @extend %card-set;
 
+    &--amount {
+         --items: 6;
+        }
+}
+.permanent-clients__item {
+    @extend %card-set__item;
+}
 
 .permanent-clients__link {
+    @extend %link;
+
     display: flex;
     justify-content: center;
     align-items: center;

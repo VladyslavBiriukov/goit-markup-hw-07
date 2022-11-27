@@ -5,6 +5,8 @@
     gap: 30px;
 }
 .contacts__link {
+    @extend %link;
+
     display: flex;
     padding-top: 32px;
     padding-bottom: 32px;

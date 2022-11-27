@@ -32,21 +32,21 @@
           <a class="logo" href="index.html"><span class="logo__text">Web</span>Studio</a>
           <!--Навігація сторінки-->
           <nav class="nav">
-          <ul class="nav__list list">
+          <ul class="nav__list">
             <li class="nav__item">
-              <a class="nav__link nav__link--current link" href="./index.html">Студія</a></li>
+              <a class="nav__link nav__link--current" href="./index.html">Студія</a></li>
             <li class="nav__item">
-              <a class="nav__link link" href="./portfolio.html">Портфоліо</a>
+              <a class="nav__link" href="./portfolio.html">Портфоліо</a>
             </li>
             <li class="nav__item">
-              <a class="nav__link link" href="">Контакти</a></li>
+              <a class="nav__link" href="">Контакти</a></li>
           </ul>
         </nav>
         <!--контактна інформація-->
 
-        <ul class="contacts list">
+        <ul class="contacts">
           <li class="contacts__item">
-            <a class="contacts__link link" href="mailto:info@devstudio.com">
+            <a class="contacts__link" href="mailto:info@devstudio.com">
               <svg class="contacts__icon" width="16" height="12">
                 <use href="./images/icons/sprites.svg#icon-mail"></use>
               </svg>
@@ -54,7 +54,7 @@
             </a>
           </li>
           <li class="contacts__item">
-            <a class="contacts__link link" href="tel:+380961111111">
+            <a class="contacts__link" href="tel:+380961111111">
               <svg class="contacts__icon" width="10" height="16">
                 <use href="./images/icons/sprites.svg#icon-smartphone"></use>
               </svg>
@@ -67,19 +67,17 @@
     <!--унікальний контент-->
     <main>
       <!--Блок HERO-->
-      <div class="hero">
-        <section class="hero__section section">
+        <section class="hero">
           <div class="container">
             <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
             <button class="button-main" type="button" data-modal-open>Замовити послугу</button>
           </div>
         </section>
-      </div>
       <!--FEATURE-->
-      <section class="feature section">
+      <section class="feature">
         <div class="container">
-          <h2 hidden class="section__title">Особливості</h2>
-          <ul class="feature__list list">
+          <h2 hidden class="section-title">Особливості</h2>
+          <ul class="feature__list">
             <li class="feature__item">
               <div class="feature__wrapper">
                 <svg class="feature__icon" width="65" height="70">
@@ -125,56 +123,58 @@
           </ul>
         </div>
       </section>
-      <!--WHAT WE DO-->
-      <section class="section">
+      <!--ABOUT-->
+      <section class="about">
         <div class="container">
-          <h2 class="section__title">Чим ми займаємося</h2>
-          <ul class="card-set list">
-            <li class="card-set__item">
+          <h2 class="section-title">Чим ми займаємося</h2>
+          <ul class="about__list">
+            <li class="about__item">
               <img
-                class="card-set__image"
+                class="about__image"
                 src="./images/cod.jpg"
                 alt="руки програмують на планшеті"
                 width="370"
                 height="294"
               />
-              <div class="card-set__overlay">
-                <p class="card-set__text">Десктопні додатки</p>
+              <div class="about__overlay">
+                <p class="about__text">Десктопні додатки</p>
               </div>
             </li>
-            <li class="card-set__item">
+            <li class="about__item">
               <img
-                class="card-set__image"
+                class="about__image"
                 src="./images/telephone.jpg"
                 alt="людина вибирає макети сайу для телефону"
                 width="370"
                 height="294"
-              /><div class="card-set__overlay">
-                <p class="card-set__text">Мобільні додатки</p>
+              />
+              <div class="about__overlay">
+                <p class="about__text">Мобільні додатки</p>
               </div>
             </li>
-            <li class="card-set__item">
+            <li class="about__item">
               <img
-                class="card-set__image"
+                class="about__image"
                 src="./images/planshet.jpg"
                 alt="людина вибирає палітру фарб на планшеті"
                 width="370"
                 height="294"
-              /><div class="card-set__overlay">
-                <p class="card-set__text">Дизайнерські рішення</p>
+              />
+              <div class="about__overlay">
+                <p class="about__text">Дизайнерські рішення</p>
               </div>
             </li>
           </ul>
         </div>
       </section>
       <!--OUR TEAM-->
-      <section class="team section">
+      <section class="team">
         <div class="container">
-          <h2 class="section__title">Наша команда</h2>
-          <ul class="card-set card-set--team-amount list">
-            <li class="card-set__item card-set__item--shadow">
+          <h2 class="section-title">Наша команда</h2>
+          <ul class="team__list team__list--amount">
+            <li class="team__item team__item--shadow">
               <img
-                class="card-set__image"
+                class="team__image"
                 src="./images/product-designer.jpg"
                 alt="Ігор Дем'яненко"
                 width="270"
@@ -183,10 +183,10 @@
               <div class="team__description">
                 <h3 class="team__title">Ігор Дем'яненко</h3>
                 <p class="team__text">Product Designer</p>
-                <ul class="social__list list">
+                <ul class="social">
                   <li class="social__item">
                     <a
-                      class="social__link link"
+                      class="social__link"
                       href="https://www.instagram.com/"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -199,7 +199,7 @@
                   </li>
                   <li class="social__item">
                     <a
-                      class="social__link link"
+                      class="social__link"
                       href="https://twitter.com/"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -212,7 +212,7 @@
                   </li>
                   <li class="social__item">
                     <a
-                      class="social__link link"
+                      class="social__link"
                       href="https://www.facebook.com/"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -225,7 +225,7 @@
                   </li>
                   <li class="social__item">
                     <a
-                      class="social__link link"
+                      class="social__link"
                       href="https://www.linkedin.com/"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -239,9 +239,9 @@
                 </ul>
               </div>
             </li>
-            <li class="card-set__item card-set__item--shadow">
+            <li class="team__item team__item--shadow">
               <img
-                class="card-set__image"
+                class="team__image"
                 src="./images/frontend-developer.jpg"
                 alt="Ольга Рєпіна"
                 width="270"
@@ -250,10 +250,10 @@
               <div class="team__description">
                 <h3 class="team__title">Ольга Рєпіна</h3>
                 <p class="team__text">Frontend Developer</p>
-                <ul class="social__list list">
+                <ul class="social list">
                   <li class="social__item">
                     <a
-                      class="social__link link"
+                      class="social__link"
                       href="https://www.instagram.com/"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -266,7 +266,7 @@
                   </li>
                   <li class="social__item">
                     <a
-                      class="social__link link"
+                      class="social__link"
                       href="https://twitter.com/"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -279,7 +279,7 @@
                   </li>
                   <li class="social__item">
                     <a
-                      class="social__link link"
+                      class="social__link"
                       href="https://www.facebook.com/"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -292,7 +292,7 @@
                   </li>
                   <li class="social__item">
                     <a
-                      class="social__link link"
+                      class="social__link"
                       href="https://www.linkedin.com/"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -306,9 +306,9 @@
                 </ul>
               </div>
             </li>
-            <li class="card-set__item card-set__item--shadow">
+            <li class="team__item team__item--shadow">
               <img
-                class="card-set__image"
+                class="team__image"
                 src="./images/marketing.jpg"
                 alt="Микола Тарасов"
                 width="270"
@@ -317,10 +317,10 @@
               <div class="team__description">
                 <h3 class="team__title">Микола Тарасов</h3>
                 <p class="team__text">Marketing</p>
-                <ul class="social__list list">
+                <ul class="social list">
                   <li class="social__item">
                     <a
-                      class="social__link link"
+                      class="social__link"
                       href="https://www.instagram.com/"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -333,7 +333,7 @@
                   </li>
                   <li class="social__item">
                     <a
-                      class="social__link link"
+                      class="social__link"
                       href="https://twitter.com/"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -346,7 +346,7 @@
                   </li>
                   <li class="social__item">
                     <a
-                      class="social__link link"
+                      class="social__link"
                       href="https://www.facebook.com/"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -359,7 +359,7 @@
                   </li>
                   <li class="social__item">
                     <a
-                      class="social__link link"
+                      class="social__link"
                       href="https://www.linkedin.com/"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -373,9 +373,9 @@
                 </ul>
               </div>
             </li>
-            <li class="card-set__item card-set__item--shadow">
+            <li class="permanent-clients__item team__item--shadow">
               <img
-                class="card-set__image"
+                class="team__image"
                 src="./images/ui-designer.jpg"
                 alt="Михайло Єрмаков"
                 width="270"
@@ -384,10 +384,10 @@
               <div class="team__description">
                 <h3 class="team__title">Михайло Єрмаков</h3>
                 <p class="team__text">UI Designer</p>
-                <ul class="social__list list">
+                <ul class="social list">
                   <li class="social__item">
                     <a
-                      class="social__link link"
+                      class="social__link"
                       href="https://www.instagram.com/"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -400,7 +400,7 @@
                   </li>
                   <li class="social__item">
                     <a
-                      class="social__link link"
+                      class="social__link"
                       href="https://twitter.com/"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -413,7 +413,7 @@
                   </li>
                   <li class="social__item">
                     <a
-                      class="social__link link"
+                      class="social__link"
                       href="https://www.facebook.com/"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -426,7 +426,7 @@
                   </li>
                   <li class="social__item">
                     <a
-                      class="social__link link"
+                      class="social__link"
                       href="https://www.linkedin.com/"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -444,13 +444,13 @@
         </div>
       </section>
       <!-- Permanent clients -->
-      <section class="permanent-clients section">
+      <section class="permanent-clients">
         <div class="container">
-          <h2 class="section__title">Постійні клієнти</h2>
-          <ul class="card-set card-set--permanent-amount list">
-            <li class="card-set__item">
+          <h2 class="section-title">Постійні клієнти</h2>
+          <ul class="permanent-clients__list permanent-clients__list--amount">
+            <li class="permanent-clients__item">
               <a
-                class="permanent-clients__link link"
+                class="permanent-clients__link"
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
@@ -460,9 +460,9 @@
                   <use href="./images/icons/sprites.svg#icon-Logo-1"></use></svg
               ></a>
             </li>
-            <li class="card-set__item">
+            <li class="permanent-clients__item">
               <a
-                class="permanent-clients__link link"
+                class="permanent-clients__link"
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
@@ -472,9 +472,9 @@
                   <use href="./images/icons/sprites.svg#icon-Logo-2"></use></svg
               ></a>
             </li>
-            <li class="card-set__item">
+            <li class="permanent-clients__item">
               <a
-                class="permanent-clients__link link"
+                class="permanent-clients__link"
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
@@ -484,9 +484,9 @@
                   <use href="./images/icons/sprites.svg#icon-Logo-3"></use></svg
               ></a>
             </li>
-            <li class="card-set__item">
+            <li class="permanent-clients__item">
               <a
-                class="permanent-clients__link link"
+                class="permanent-clients__link"
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
@@ -496,9 +496,9 @@
                   <use href="./images/icons/sprites.svg#icon-Logo-4"></use></svg
               ></a>
             </li>
-            <li class="card-set__item">
+            <li class="permanent-clients__item">
               <a
-                class="permanent-clients__link link"
+                class="permanent-clients__link"
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
@@ -508,9 +508,9 @@
                   <use href="./images/icons/sprites.svg#icon-Logo-5"></use></svg
               ></a>
             </li>
-            <li class="card-set__item">
+            <li class="permanent-clients__item">
               <a
-                class="permanent-clients__link link"
+                class="permanent-clients__link"
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
@@ -533,16 +533,16 @@
           <address class="footer__adress">
             <a href="https://goo.gl/maps/w97nYKnTXLUqke6n6" class="footer__link footer__link--white-text link"
               >м. Київ, пр-т Лесі Українки, 26</a>
-            <a href="mailto:info@devstudio.com" class="footer__link link">info@devstudio.com</a>
-            <a href="tel:+380961111111" class="footer__link link">+38 096 111 11 11</a>
+            <a href="mailto:info@devstudio.com" class="footer__link">info@devstudio.com</a>
+            <a href="tel:+380961111111" class="footer__link">+38 096 111 11 11</a>
           </address>
         </div>
         <div class="footer__social-group">
           <h2 class="footer__titles">приєднуйтесь</h2>
-          <ul class="social__list list">
+          <ul class="social">
             <li class="social__item">
               <a
-                class="social__link social__link--dark-bg link"
+                class="social__link social__link--dark-bg"
                 href="https://www.instagram.com/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -555,7 +555,7 @@
             </li>
             <li class="social__item">
               <a
-                class="social__link social__link--dark-bg link"
+                class="social__link social__link--dark-bg"
                 href="https://twitter.com/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -568,7 +568,7 @@
             </li>
             <li class="social__item">
               <a
-                class="social__link social__link--dark-bg link"
+                class="social__link social__link--dark-bg"
                 href="https://www.facebook.com/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -581,7 +581,7 @@
             </li>
             <li class="social__item">
               <a
-                class="social__link social__link--dark-bg link"
+                class="social__link social__link--dark-bg"
                 href="https://www.linkedin.com/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -599,7 +599,7 @@
         
       <b class="footer__titles">Підпишіться на розсилку</b>
       <form class="footer__form" name="footer-form" autocomplete="off">
-        <input class="footer__field footer__fill--color" type="email" name="email_footer" placeholder="E-mail" autocomplete="email" required>
+        <input class="footer__field footer__field--color" type="email" name="email_footer" placeholder="E-mail" autocomplete="email" required>
         <button class="button-main button-main--footer-postion" type="submit">Підписатися
         <svg class="footer__icon" width="24" height="24">
           <use href="./images/icons/sprites.svg#icon-form-send"></use>
@@ -611,58 +611,56 @@
       </div>
     </footer>
     <!-- MODAL-WINDOW -->
-    <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop backdrop--is-hidden" data-modal>
       <div class="modal">
-        <button class="modal-btn" type="button" data-modal-close>
-          <svg class="modal-icon" width="11px" height="11px">
+        <button class="modal__btn" type="button" data-modal-close>
+          <svg class="modal__icon" width="11px" height="11px">
         <use href="./images/icons/sprites.svg#icon-close"></use>
       </svg>
     </button>
 
-    <b class="modal-form-main-text">Залиште свої дані, ми вам передзвонимо</b>   
+    <b class="modal-form__title">Залиште свої дані, ми вам передзвонимо</b>   
     <form class="modal-form" name="modal_form" autocomplete="off">
-      <div class="modal-form-group" role="group" >
+      <div class="modal-form__group" role="group" >
 
-    <div class="modal-form-wrapper">
-        <label class="modal-form-label" for="user_name">Ім&#39;я</label>
-          <input class="modal-form-field" type="text" name="user_name" id="user_name" autocomplete="name" required>
-          <svg class="modal-form-icon" width="18" height="18">
+    <div class="modal-form__wrapper">
+        <label class="modal-form__label" for="user_name">Ім&#39;я</label>
+          <input class="modal-form__field" type="text" name="user_name" id="user_name" autocomplete="name" required>
+          <svg class="modal-form__icon" width="18" height="18">
             <use href="./images/icons/sprites.svg#icon-form-person"></use>
           </svg>
     </div>
 
-    <div class="modal-form-wrapper">
-      <label class="modal-form-label" for="user_tel">Телефон</label>
-      <input class="modal-form-field" type="tel" name="user_tel" id="user_tel" autocomplete="tel" required>
-      <svg class="modal-form-icon" width="18" height="18">
+    <div class="modal-form__wrapper">
+      <label class="modal-form__label" for="user_tel">Телефон</label>
+      <input class="modal-form__field" type="tel" name="user_tel" id="user_tel" autocomplete="tel" required>
+      <svg class="modal-form__icon" width="18" height="18">
         <use href="./images/icons/sprites.svg#icon-form-phone"></use>
       </svg>
     </div>
 
-    <div class="modal-form-wrapper">
-      <label class="modal-form-label" for="user_mail">Пошта</label>
-      <input class="modal-form-field" type="email" name="user_mail" id="user_mail" autocomplete="email" required>
-      <svg class="modal-form-icon" width="18" height="18">
+    <div class="modal-form__wrapper">
+      <label class="modal-form__label" for="user_mail">Пошта</label>
+      <input class="modal-form__field" type="email" name="user_mail" id="user_mail" autocomplete="email" required>
+      <svg class="modal-form__icon" width="18" height="18">
         <use href="./images/icons/sprites.svg#icon-form-email"></use>
       </svg>
     </div>
     
-        <label class="modal-form-label" for="user_comment">Коментар</label>
-          <textarea class="modal-message" name="user_comment" id="user_comment" rows="6" placeholder="Введіть текст"></textarea>
+        <label class="modal-form__label" for="user_comment">Коментар</label>
+          <textarea class="modal-form__message" name="user_comment" id="user_comment" rows="6" placeholder="Введіть текст"></textarea>
     </div>
-    <div class="modal-agreement" role="group">
-        <input class="modal-form-checkbox" type="checkbox" name="user_agreement" id="user_agreement" required>
-        <label class="modal-agreement-label"
+    <div class="modal-form__agreement" role="group">
+        <input class="modal-form__checkbox" type="checkbox" name="user_agreement" id="user_agreement" required>
+        <label class="agreement"
          for="user_agreement">Погоджуюся з розсилкою та приймаю
-        <a class="modal-agreement-link" href="">Умови договору</a></label>
+        <a class="agreement__link" href="">Умови договору</a></label>
     </div>
-        <button class="modal-form-btn" type="submit">Відправити</button>
+        <button class="button-main button-main--modal-postion" type="submit">Відправити</button>
     </form>
   </div>
     </div>
     <!-- SCRIPT -->
     <script src="./js/modal.js"></script>
-
-    
   </body>
 </html>
